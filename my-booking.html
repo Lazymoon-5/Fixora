@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookings - Fixora</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <link rel="stylesheet" href="css/my-booking.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-tools"></i>
+            <span>Fixora</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="services.html">Services</a>
+            <a href="terms.html">Terms & Policy</a>
+        </nav>
+        </nav>
+
+        <div class="header-right">
+            <div class="search-box">
+                <input type="text" placeholder="Search services...">
+                <i class="fas fa-search"></i>
+            </div>
+          <div class="user-icon" id="userSection">
+</div>
+        </div>
+    </header>
+
+    <section class="booking-section">
+        <div class="container">
+            <h1 class="page-title">My Service Bookings</h1>
+            <p class="subtitle">Track, Confirm or Reject your service requests</p>
+
+            <div id="bookingList" class="booking-list">
+        
+            </div>
+
+            <div id="noBooking" class="no-booking">
+                <i class="fas fa-calendar-times"></i>
+                <h2>My Bookings</h2>
+                <div id="bookingsContainer"></div>
+                <script src="js/my-bookings.js"></script>
+                <p>You haven’t booked any service yet.</p>
+                <a href="services.html" class="browse-btn">Browse Services</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <i class="fas fa-tools"></i>
+                <span>Fixora</span>
+                <p class="tagline">Smart Local Service Marketplace</p>
+            </div>
+
+            <div class="footer-search">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">Service Providers</a>
+                <a href="#">Reviews</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Available In</h4>
+                <p>Dhule</p>
+                <p>Shirpur</p>
+                <p>Mumbai</p>
+                <p>Nashik</p>
+                <p>Jalgaon</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <a href="terms.html">Terms & Condition</a>
+                <a href="terms.html">Privacy Policy</a>
+            </div>
+
+            <div class="footer-column social">
+                <h4>Social Media</h4>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/navbar.js"></script>
+    <div id="bookingsContainer"></div>
+<script src="my-bookings.js"></script>
+</body>
+</html>

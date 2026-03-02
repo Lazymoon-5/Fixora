@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Service</title>
+    <link rel="stylesheet" href="css/add-service.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-links">
+            <a href="provider-dashboard.html">Back to Dashboard</a>
+        </nav>
+<div class="user-icon" id="userSection">
+</div>
+        </div>
+    </header>
+<div class="container">
+    <h2>Add New Service</h2>
+
+    <form id="serviceForm">
+
+        <label>Service Name</label>
+        <input type="text" id="serviceName" required>
+
+        <label>Price (₹)</label>
+        <input type="number" id="price" required>
+
+        <label>Description</label>
+        <textarea id="description"></textarea>
+
+        <button type="submit">Add Service</button>
+
+        <p id="message"></p>
+
+    </form>
+</div>
+    <script src="js/navbar.js"></script>
+<script src="js/add-service.js"></script>
+</body>
+</html>

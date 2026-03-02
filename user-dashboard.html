@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - Fixora</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    
+    <link rel="stylesheet" href="css/user-dashboard.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-tools"></i>
+            <span>Fixora</span>
+        </div>
+
+        <nav class="nav-links">
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="services.html">Services</a>
+            <a href="terms.html">Terms & Policy</a>
+        </nav>
+        </nav>
+
+        <div class="header-right">
+            <div class="search-box">
+                <input type="text" placeholder="Search services...">
+                <i class="fas fa-search"></i>
+            </div>
+<div class="user-icon" id="userSection">
+</div>
+        </div>
+    </header>
+
+    <section class="dashboard-section">
+        <div class="dashboard-container">
+
+            <h1 class="dashboard-title">Welcome Back, <span id="userName">User</span> 👋</h1>
+            <p class="dashboard-subtitle">Manage your bookings and services easily on Fixora</p>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3 id="totalBookings">0</h3>
+                    <p>Total Bookings</p>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fas fa-hourglass-half"></i>
+                    <h3 id="pendingBookings">0</h3>
+                    <p>Pending</p>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3 id="confirmedBookings">0</h3>
+                    <p>Confirmed</p>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fas fa-times-circle"></i>
+                    <h3 id="rejectedBookings">0</h3>
+                    <p>Rejected</p>
+                </div>
+            </div>
+
+            <div class="quick-actions">
+                <h2>Quick Actions</h2>
+                <div class="action-buttons">
+                    <a href="services.html" class="action-btn">
+                        <i class="fas fa-tools"></i> Book a Service
+                    </a>
+                    <a href="my-booking.html" class="action-btn">
+                        <i class="fas fa-list"></i> View My Bookings
+                    </a>
+                    <button class="action-btn logout-btn" id="logoutBtn">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </button>
+                </div>
+            </div>
+
+            <div class="recent-bookings">
+                <h2>Recent Bookings</h2>
+                <div id="recentBookingList" class="booking-list">
+                  
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <i class="fas fa-tools"></i>
+                <span>Fixora</span>
+                <p class="tagline">Smart Local Service Marketplace</p>
+            </div>
+
+            <div class="footer-search">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">Service Providers</a>
+                <a href="#">Reviews</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Available In</h4>
+                <p>Dhule</p>
+                <p>Shirpur</p>
+                <p>Mumbai</p>
+                <p>Nashik</p>
+                <p>Jalgaon</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <a href="terms.html">Terms & Condition</a>
+                <a href="terms.html">Privacy Policy</a>
+            </div>
+
+            <div class="footer-column social">
+                <h4>Social Media</h4>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/navbar.js"></script>
+
+    <script src="js/user-dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Fixora</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+        <div class="logo">
+            <i class="fas fa-tools"></i>
+            <span>Fixora</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="services.html">Services</a>
+            <a href="terms.html">Terms & Policy</a>
+        </nav>
+
+        <div class="header-right">
+            <div class="search-box">
+                <input type="text" placeholder="Search services...">
+                <i class="fas fa-search"></i>
+            </div>
+<div class="user-icon" id="userSection">
+</div>
+        </div>
+    </header>
+
+    <section class="register-section">
+        <div class="register-container">
+
+            <div class="register-info">
+                <h1>Join Fixora 🚀</h1>
+                <p>Create your account and start booking trusted local services instantly.</p>
+
+                <ul>
+                    <li>✔ Book verified service providers</li>
+                    <li>✔ Fast doorstep services</li>
+                    <li>✔ Secure & reliable platform</li>
+                    <li>✔ Available in Dhule, Shirpur, Nashik & More</li>
+                </ul>
+
+                <img src="assets/register-illustration.png" alt="Register Illustration">
+            </div>
+
+            <div class="register-form-card">
+                <h2>Create Account</h2>
+                <p class="subtitle">Sign up to continue</p>
+
+                <form id="registerForm">
+
+                    <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your full name" required>
+            </div>
+
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                      <label>Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="form-group">
+                        <label>Select Role</label>
+                        <select id="role" required>
+                        <option value="">Choose Role</option>
+                        <option value="user">User (Customer)</option>
+                        <option value="provider">Service Provider</option>
+                    </select>
+                </div>
+
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" id="password" placeholder="Create password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Confirm Password</label>
+                        <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+                    </div>
+
+                    <button type="submit" class="register-btn">Create Account</button>
+
+                    <div class="divider">
+                        <span>OR</span>
+                    </div>
+
+                    <button type="button" class="google-btn">
+                        <img src="assets/google.png" alt="Google">
+                        Sign up with Google
+                    </button>
+
+                    <p class="login-link">
+                        Already have an account?
+                        <a href="login.html">Login Here</a>
+                    </p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <i class="fas fa-tools"></i>
+                <span>Fixora</span>
+                <p class="tagline">Smart Local Service Marketplace</p>
+            </div>
+
+            <div class="footer-search">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Company</h4>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Service Providers</a>
+                <a href="#">Reviews</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Available In</h4>
+                <p>Dhule</p>
+                <p>Shirpur</p>
+                <p>Mumbai</p>
+                <p>Nashik</p>
+                <p>Jalgaon</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <a href="#">Terms & Condition</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="footer-column social">
+                <h4>Social Media</h4>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/navbar.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

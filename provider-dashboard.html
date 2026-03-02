@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provider Dashboard - Fixora</title>
+
+   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+
+    <link rel="stylesheet" href="css/provider-dashboard.css">
+</head>
+<body>
+
+  
+    <nav class="navbar">
+        <div class="logo">Fixora Provider</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" id="logoutBtn">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="dashboard-container">
+        <h1 class="dashboard-title">Welcome, Service Provider 👋</h1>
+
+        <div class="cards">
+        
+            <div class="card">
+                <h3>My Profile</h3>
+                <p>Name: <span id="providerName">Loading...</span></p>
+                <p>Email: <span id="providerEmail">Loading...</span></p>
+            </div>
+
+        
+            <div class="card">
+                <h3>My Services</h3>
+                <p>Manage your listed services.</p>
+                <button class="btn"><a href="add-service.html">Add Service</a></button>
+            </div>
+            <div class="card">
+                <h3>Employees</h3>
+                <p>Manage your listed employees.</p>
+                <button class="btn"><a href="add-employee.html">Add Employee</a></button>
+            </div>
+
+            
+            <div class="card">
+                <h3>Booking Requests</h3>
+                <p>Total Requests: <span id="bookingCount">0</span></p>
+            </div>
+        </div>
+
+<div class="booking-list">
+    <h2>Recent Booking Requests</h2>
+    <div id="bookingContainer"></div>
+</div>
+    </div>
+    <script src="js/navbar.js"></script>
+ 
+    <script src="js/provider-dashboard.js"></script>
+</body>
+</html>

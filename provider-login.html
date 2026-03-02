@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provider Login - Fixora</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <link rel="stylesheet" href="css/provider-login.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-tools"></i>
+            <span>Fixora</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="services.html">Services</a>
+            <a href="terms.html">Terms & Conditions</a>
+        </nav>
+
+        <div class="header-right">
+            <div class="search-box">
+                <input type="text" placeholder="Search services...">
+                <i class="fas fa-search"></i>
+            </div>
+           <div class="user-icon" id="userSection">
+</div>
+        </div>
+    </header>
+
+    <section class="provider-login-section">
+        <div class="login-container">
+
+            <div class="login-left">
+                <h2>Provider Portal</h2>
+                <p>Login to manage your services, bookings, and customers on Fixora.</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Provider Illustration">
+            </div>
+
+            <div class="login-right">
+                <h2>Service Provider Login</h2>
+
+                <form id="providerLoginForm">
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input type="email" id="providerEmail" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Password</label>
+                        <input type="password" id="providerPassword" placeholder="Enter your password" required>
+                    </div>
+
+                    <div class="options">
+                        <label>
+                            <input type="checkbox"> Remember Me
+                        </label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+
+                    <button type="submit" class="login-btn">
+                        <i class="fas fa-sign-in-alt"></i> Login as Provider
+                    </button>
+
+                    <p class="register-link">
+                        Not a provider? <a href="provider-register.html">Register Here</a>
+                    </p>
+                </form>
+
+                <div id="loginMessage" class="login-message"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <i class="fas fa-tools"></i>
+                <span>Fixora</span>
+                <p class="tagline">Smart Local Service Marketplace</p>
+            </div>
+
+            <div class="footer-search">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">Service Providers</a>
+                <a href="#">Reviews</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Available In</h4>
+                <p>Dhule</p>
+                <p>Shirpur</p>
+                <p>Mumbai</p>
+                <p>Nashik</p>
+                <p>Jalgaon</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <a href="terms.html">Terms & Condition</a>
+                <a href="terms.html">Privacy Policy</a>
+            </div>
+
+            <div class="footer-column social">
+                <h4>Social Media</h4>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/provider-login.js"></script>
+</body>
+</html>

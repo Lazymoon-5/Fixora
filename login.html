@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fixora</title>
+
+    <link rel="stylesheet" href="css/login.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-tools"></i>
+            <span>Fixora</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="services.html">Services</a>
+            <a href="terms.html">Terms & Policy</a>
+        </nav>
+
+        <div class="header-right">
+            <div class="search-box">
+                <input type="text" placeholder="Search services...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="user-icon">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="login-section">
+        <div class="login-container fade-in">
+
+            <div class="login-info">
+                <h1>Welcome Back to Fixora</h1>
+                <p>
+                    Login to book trusted local services, manage your bookings,
+                    and connect with verified service providers near you.
+                </p>
+                <img src="https://via.placeholder.com/350x250" alt="Login Illustration">
+            </div>
+
+            <div class="login-card">
+                <h2>Login</h2>
+                <p class="subtitle">Access your Fixora account</p>
+
+                <form id="loginForm">
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                        <i class="fas fa-envelope input-icon"></i>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Password</label>
+                        <input type="password" id="password" placeholder="Enter your password" required>
+                        <i class="fas fa-eye toggle-password" id="togglePassword"></i>
+                    </div>
+
+                   <div class="user-icon" id="userSection">
+</div>
+                    <button type="submit" class="login-btn">
+                        Login <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+
+                <p class="register-text">
+                    Don't have an account?
+                    <a href="register.html">Register</a>
+                </p>
+                <p class="register-text">
+                    Are you a service provider?
+                    <a href="provider-login.html">Provider Login</a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <script src="js/navbar.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

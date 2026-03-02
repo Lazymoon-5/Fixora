@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provider Registration - Fixora</title>
+
+   
+    <link rel="stylesheet" href="css/provider-register.css">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-tools"></i>
+            <span>Fixora</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="terms.html">Terms & Policy</a>
+        </nav>
+
+        <div class="header-right">
+            <div class="search-box">
+                <input type="text" placeholder="Search services...">
+                <i class="fas fa-search"></i>
+            </div>
+<div class="user-icon" id="userSection">
+</div>
+        </div>
+    </header>
+
+    <section class="provider-hero">
+        <h1>Become a Service Provider</h1>
+        <p>Join Fixora and start getting local service bookings instantly</p>
+    </section>
+
+    <section class="form-section">
+        <div class="form-container">
+
+            <h2><i class="fas fa-user-plus"></i> Provider Registration</h2>
+
+            <form id="providerForm">
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Phone Number</label>
+                        <input type="number" id="phone" placeholder="Enter phone number" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input type="email" id="email" placeholder="Enter email address" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Password</label>
+                        <input type="password" id="password" placeholder="Enter your password" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>City</label>
+                        <select id="city" required>
+                            <option value="">Select City</option>
+                            <option>Dhule</option>
+                            <option>Mumbai</option>
+                            <option>Nashik</option>
+                            <option>Jalgaon</option>
+                            <option>Shirpur</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Select Your Service</label>
+                    <select id="service" required>
+                        <option value="">Choose Service</option>
+                        <option>Electrician</option>
+                        <option>Plumber</option>
+                        <option>AC Repair</option>
+                        <option>Home Cleaning</option>
+                        <option>Carpenter</option>
+                        <option>Painter</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Experience (Years)</label>
+                    <input type="number" id="experience" placeholder="e.g. 3 Years" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Upload Profile Photo</label>
+                        <input type="file" id="photo" accept="image/*">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Upload ID Proof</label>
+                        <input type="file" id="idproof" accept="image/*,application/pdf">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Service Description</label>
+                    <textarea id="description" rows="4" placeholder="Describe your service skills..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Register as Provider
+                </button>
+
+                <p class="form-note">
+                    By registering, you agree to Fixora Terms & Conditions and Privacy Policy.
+                </p>
+
+            </form>
+        </div>
+    </section>
+
+
+<footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <i class="fas fa-tools"></i>
+                <span>Fixora</span>
+                <p class="tagline">Smart Local Service Marketplace</p>
+            </div>
+
+            <div class="footer-search">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Company</h4>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Service Providers</a>
+                <a href="#">Reviews</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Available In</h4>
+                <p>Dhule</p>
+                <p>Shirpur</p>
+                <p>Mumbai</p>
+                <p>Nashik</p>
+                <p>Jalgaon</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <a href="#">Terms & Condition</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="footer-column social">
+                <h4>Social Media</h4>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/navbar.js"></script>
+    <script src="js/provider-register.js"></script>
+</body>
+</html>

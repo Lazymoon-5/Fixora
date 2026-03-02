@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Fixora</title>
+    <link rel="stylesheet" href="css/services.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="assets/logos/logo.png" alt="Fixora Logo">
+            <h2>Fixora</h2>
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="terms.html">Terms & Policy</a>
+        </nav>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <input type="text" placeholder="Search services...">
+                <span>🔍</span>
+<div class="user-icon" id="userSection">
+</div>
+    </header>
+
+    <section class="services-hero">
+        <h1>Book Trusted Local Services</h1>
+        <p>Fast • Reliable • Verified Professionals near you</p>
+    </section>
+
+    <section class="services-section">
+        <h2 class="section-title">Popular Services</h2>
+
+        <div class="services-grid">
+
+
+            <div class="service-card">
+                <img src="assets/images/Electrician.jpeg" alt="Electrician">
+                <h3>Electrician</h3>
+                <p>Expert electrical repair & installation services.</p>
+                <div class="rating">⭐ 4.8 (120 Reviews)</div>
+                <button class="btn book-btn" data-service="Electrician">Book Service</button>
+            </div>
+
+            <div class="service-card">
+                <img src="assets/images/plumber.jpeg" alt="Plumber">
+                <h3>Plumber</h3>
+                <p>Quick plumbing fixes and pipe maintenance.</p>
+                <div class="rating">⭐ 4.6 (98 Reviews)</div>
+                <button class="btn book-btn" data-service="Plumber">Book Service</button>
+            </div>
+
+           
+            <div class="service-card">
+                <img src="assets/images/ac.jpeg" alt="AC Repair">
+                <h3>AC Repair</h3>
+                <p>Professional AC repair and servicing.</p>
+                <div class="rating">⭐ 4.7 (150 Reviews)</div>
+                <button class="btn book-btn" data-service="AC Repair">Book Service</button>
+            </div>
+
+           
+            <div class="service-card">
+                <img src="assets/images/cleaning.jpeg" alt="Cleaning">
+                <h3>Home Cleaning</h3>
+                <p>Deep home cleaning by trained staff.</p>
+                <div class="rating">⭐ 4.9 (200 Reviews)</div>
+                <button class="btn book-btn" data-service="Home Cleaning">Book Service</button>
+            </div>
+
+        
+            <div class="service-card">
+                <img src="assets/images/carpenter.jpeg" alt="Carpenter">
+                <h3>Carpenter</h3>
+                <p>Furniture repair and woodwork services.</p>
+                <div class="rating">⭐ 4.5 (80 Reviews)</div>
+                <button class="btn book-btn" data-service="Carpenter">Book Service</button>
+            </div>
+
+        
+            <div class="service-card">
+                <img src="assets/images/painting.jpeg" alt="Painter">
+                <h3>Painting</h3>
+                <p>House painting and wall design services.</p>
+                <div class="rating">⭐ 4.7 (60 Reviews)</div>
+                <button class="btn book-btn" data-service="Painting">Book Service</button>
+            </div>
+
+        </div>
+    </section>
+<section class="booking-section">
+    <h2>Select Your Booking Details</h2>
+
+    <select id="serviceSelect">
+        <option>Select Service</option>
+    </select>
+
+    <select id="providerSelect">
+        <option>Select Provider</option>
+    </select>
+
+    <select id="employeeSelect">
+        <option>Select Employee</option>
+    </select>
+
+    <button onclick="bookService()">Confirm Booking</button>
+</section>
+ <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <i class="fas fa-tools"></i>
+                <span>Fixora</span>
+                <p class="tagline">Smart Local Service Marketplace</p>
+            </div>
+
+            <div class="footer-search">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Company</h4>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Service Providers</a>
+                <a href="#">Reviews</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Available In</h4>
+                <p>Dhule</p>
+                <p>Shirpur</p>
+                <p>Mumbai</p>
+                <p>Nashik</p>
+                <p>Jalgaon</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <a href="#">Terms & Condition</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="footer-column social">
+                <h4>Social Media</h4>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/navbar.js"></script>
+    <script src="js/services.js"></script>
+</body>
+</html>
